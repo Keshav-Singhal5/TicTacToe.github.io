@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@media screen and (max-width: 900px){
+  body{
+    background-color:red;
+  }
+}
+nav ul {
+  height: 8vh;
+  font-size: 28px;
+  font-family: cursive;
+  color: white;
+  background-color: purple;
+  width: 100%;
+  word-spacing: 1vw;
+  text-shadow: 2px 2px green;
+  padding: 18px;
+  text-decoration-line: underline;
+}
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 8vw);
+  grid-template-rows: repeat(3, 8vw);
+  margin-top: 25px;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  color: rgb(42, 3, 42);
+  font-size: 100px;
+  border: 2px solid rgb(90, 140, 15);
+  cursor: pointer;
+
+}
+.box:hover{
+    background-color: rgb(245, 222, 226);
+}
+#button{
+    font-family: cursive;
+    font-size: 23px;
+    width:98px;
+    height:40px;
+    background-color: rgb(230, 53, 230);
+    border-width: 3px;
+    border-color: black;
+    border-radius: 4px;
+    margin-top:20px;
+    margin-left:716px;
+    cursor:pointer;
+}
+.b-r{
+    border-right: 0px;
+
+}
+.b-l{
+    border-left: 0px;
+}
+.b-b{
+    border-bottom: 0px;
+}
+.b-t{
+    border-top: 0px;
+}
+.imgbox img{
+    width:0px;
+    transition: width 1s ease-in-out;
+}
+.turntext{
+    font-size:35px;
+    margin-left:200px;
+    margin-top:20px;
+    font-family: cursive;
+background-color: greenyellow;
+  
+    border-radius:8px;
+}
